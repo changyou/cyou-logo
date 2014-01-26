@@ -50,36 +50,42 @@ header {
 	top: 0px;
 	left: 100px;
 	overflow: hidden;
+	background: -webkit-linear-gradient(top, #660099, #FFF);
 }
 
 .top-left {
 	overflow: hidden;
 	transform: rotate(-60deg);
 	-webkit-transform: rotate(-60deg);
+	background: -webkit-linear-gradient(top, #660099, #FFF);
 }
 
 .bottom-left {
 	overflow: hidden;
 	transform: rotate(-120deg);
 	-webkit-transform: rotate(-120deg);
+	background: -webkit-linear-gradient(top, #660099, #FFF);
 }
 
 .bottom {
 	overflow: hidden;
 	transform: rotate(180deg);
 	-webkit-transform: rotate(180deg);
+	background: -webkit-linear-gradient(top, #660099, #FFF);
 }
 
 .bottom-right {
 	overflow: hidden;
 	transform: rotate(120deg);
 	-webkit-transform: rotate(120deg);
+	background: -webkit-linear-gradient(top, #660099, #FFF);
 }
 
 .top-right {
 	overflow: hidden;
 	transform: rotate(60deg);
 	-webkit-transform: rotate(60deg);
+	background: -webkit-linear-gradient(top, #660099, #FFF);
 }
 
 .central {
