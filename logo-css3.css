@@ -50,42 +50,36 @@ header {
 	top: 0px;
 	left: 100px;
 	overflow: hidden;
-	background: -webkit-linear-gradient(top, #660099, #FFF);
 }
 
 .top-left {
 	overflow: hidden;
 	transform: rotate(-60deg);
 	-webkit-transform: rotate(-60deg);
-	background: -webkit-linear-gradient(top, #660099, #FFF);
 }
 
 .bottom-left {
 	overflow: hidden;
 	transform: rotate(-120deg);
 	-webkit-transform: rotate(-120deg);
-	background: -webkit-linear-gradient(top, #660099, #FFF);
 }
 
 .bottom {
 	overflow: hidden;
 	transform: rotate(180deg);
 	-webkit-transform: rotate(180deg);
-	background: -webkit-linear-gradient(top, #660099, #FFF);
 }
 
 .bottom-right {
 	overflow: hidden;
 	transform: rotate(120deg);
 	-webkit-transform: rotate(120deg);
-	background: -webkit-linear-gradient(top, #660099, #FFF);
 }
 
 .top-right {
 	overflow: hidden;
 	transform: rotate(60deg);
 	-webkit-transform: rotate(60deg);
-	background: -webkit-linear-gradient(top, #660099, #FFF);
 }
 
 .central {
@@ -121,35 +115,49 @@ header {
 }
 
 .red {
-	background-color: rgb(230, 0, 60);
+	background: -webkit-gradient(linear, 86.6% 25%, center bottom, from(rgb(230, 0, 60)), to(#FFF));
 }
 
 .orange {
-	background-color: rgb(240, 100, 0);
+	background: -webkit-gradient(linear, 13.4% 25%, center bottom, from(rgb(240, 100, 0)), to(#FFF));
 }
 
 .yellow {
-	background-color: rgb(255, 200, 0);
+	background: -webkit-gradient(linear, 13.4% 25%, center bottom, from(rgb(255, 200, 0)), to(#FFF));
 }
 
 .green {
-	background-color: rgb(140, 200, 60);
+	background: -webkit-gradient(linear, 13.4% 25%, center bottom, from(rgb(140, 200, 60)), to(#FFF));
 }
 
 .indigo {
-	background-color: rgb(0, 160, 230);
+	background: -webkit-gradient(linear, 13.4% 25%, center bottom, from(rgb(0, 160, 230)), to(#FFF));
 }
 
 .blue {
-	background-color: rgb(50, 80, 160);
+	background: -webkit-gradient(linear, 13.4% 25%, center bottom, from(rgb(50, 80, 160)), to(#FFF));
 }
 
 .purple {
-	background-color: rgba(107, 22, 133, 0.8);
+	background: -webkit-linear-gradient(top, #660099, #FFF);
 }
 
 .white {
 	background-color: rgba(255, 255, 255, 0.6);
+}
+
+.small-leaf {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+	background-color: white;
+	transform-origin: bottom center;
+	-webkit-transform-origin: bottom center;
+	transform: rotate(120deg);
+	-webkit-transform: rotate(120deg);
 }
 
 .copyright {
