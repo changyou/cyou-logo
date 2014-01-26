@@ -51,7 +51,9 @@ header {
 	position: absolute;
 	top: 0px;
 	left: 100px;
+	transform-origin: bottom center;
 	-webkit-transform-origin: bottom center;
+	transform: rotate(-60deg);
 	-webkit-transform: rotate(-60deg);
 }
 
@@ -59,7 +61,9 @@ header {
 	position: absolute;
 	top: 0px;
 	left: 100px;
+	transform-origin: bottom center;
 	-webkit-transform-origin: bottom center;
+	transform: rotate(-120deg);
 	-webkit-transform: rotate(-120deg);
 }
 
@@ -67,7 +71,9 @@ header {
 	position: absolute;
 	top: 0px;
 	left: 100px;
+	transform-origin: bottom center;
 	-webkit-transform-origin: bottom center;
+	transform: rotate(180deg);
 	-webkit-transform: rotate(180deg);
 }
 
@@ -75,7 +81,9 @@ header {
 	position: absolute;
 	top: 0px;
 	left: 100px;
+	transform-origin: bottom center;
 	-webkit-transform-origin: bottom center;
+	transform: rotate(120deg);
 	-webkit-transform: rotate(120deg);
 }
 
@@ -83,7 +91,9 @@ header {
 	position: absolute;
 	top: 0px;
 	left: 100px;
+	transform-origin: bottom center;
 	-webkit-transform-origin: bottom center;
+	transform: rotate(60deg);
 	-webkit-transform: rotate(60deg);
 }
 
