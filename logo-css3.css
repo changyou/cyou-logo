@@ -35,64 +35,49 @@ header {
 }
 
 .origin-circle {
+	position: absolute;
+	top: 0px;
+	left: 100px;
 	width: 200px;
 	height: 200px;
 	border-radius: 200px;
-	background-color: rgba(107, 22, 133, 0.8);
+	transform-origin: bottom center;
+	-webkit-transform-origin: bottom center;
 }
 
 .top {
 	position: absolute;
 	top: 0px;
 	left: 100px;
+	overflow: hidden;
 }
 
 .top-left {
-	position: absolute;
-	top: 0px;
-	left: 100px;
-	transform-origin: bottom center;
-	-webkit-transform-origin: bottom center;
+	overflow: hidden;
 	transform: rotate(-60deg);
 	-webkit-transform: rotate(-60deg);
 }
 
 .bottom-left {
-	position: absolute;
-	top: 0px;
-	left: 100px;
-	transform-origin: bottom center;
-	-webkit-transform-origin: bottom center;
+	overflow: hidden;
 	transform: rotate(-120deg);
 	-webkit-transform: rotate(-120deg);
 }
 
 .bottom {
-	position: absolute;
-	top: 0px;
-	left: 100px;
-	transform-origin: bottom center;
-	-webkit-transform-origin: bottom center;
+	overflow: hidden;
 	transform: rotate(180deg);
 	-webkit-transform: rotate(180deg);
 }
 
 .bottom-right {
-	position: absolute;
-	top: 0px;
-	left: 100px;
-	transform-origin: bottom center;
-	-webkit-transform-origin: bottom center;
+	overflow: hidden;
 	transform: rotate(120deg);
 	-webkit-transform: rotate(120deg);
 }
 
 .top-right {
-	position: absolute;
-	top: 0px;
-	left: 100px;
-	transform-origin: bottom center;
-	-webkit-transform-origin: bottom center;
+	overflow: hidden;
 	transform: rotate(60deg);
 	-webkit-transform: rotate(60deg);
 }
@@ -101,6 +86,51 @@ header {
 	position: absolute;
 	top: 100px;
 	left: 100px;
+}
+
+.leaf {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+	transform-origin: bottom center;
+	-webkit-transform-origin: bottom center;
+	transform: rotate(60deg);
+	-webkit-transform: rotate(60deg);
+}
+
+.red {
+	background-color: rgb(230, 0, 60);
+}
+
+.orange {
+	background-color: rgb(240, 100, 0);
+}
+
+.yellow {
+	background-color: rgb(255, 200, 0);
+}
+
+.green {
+	background-color: rgb(140, 200, 60);
+}
+
+.indigo {
+	background-color: rgb(0, 160, 230);
+}
+
+.blue {
+	background-color: rgb(50, 80, 160);
+}
+
+.purple {
+	background-color: rgba(107, 22, 133, 0.8);
+}
+
+.white {
+	background-color: rgba(255, 255, 255, 0.6);
 }
 
 .copyright {
