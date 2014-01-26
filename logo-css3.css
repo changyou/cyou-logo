@@ -115,27 +115,27 @@ header {
 }
 
 .red {
-	background: -webkit-gradient(linear, 86.6% 25%, center bottom, from(rgb(230, 0, 60)), to(#FFF));
+	background: -webkit-gradient(linear, 86.6% 25%, center bottom, from(#E6003C), to(#FFF));
 }
 
 .orange {
-	background: -webkit-gradient(linear, 13.4% 25%, center bottom, from(rgb(240, 100, 0)), to(#FFF));
+	background: -webkit-gradient(linear, 13.4% 25%, center bottom, from(#F06400), to(#FFF));
 }
 
 .yellow {
-	background: -webkit-gradient(linear, 13.4% 25%, center bottom, from(rgb(255, 200, 0)), to(#FFF));
+	background: -webkit-gradient(linear, 13.4% 25%, center bottom, from(#FFC800), to(#FFF));
 }
 
 .green {
-	background: -webkit-gradient(linear, 13.4% 25%, center bottom, from(rgb(140, 200, 60)), to(#FFF));
+	background: -webkit-gradient(linear, 13.4% 25%, center bottom, from(#8CC83C), to(#FFF));
 }
 
 .indigo {
-	background: -webkit-gradient(linear, 13.4% 25%, center bottom, from(rgb(0, 160, 230)), to(#FFF));
+	background: -webkit-gradient(linear, 13.4% 25%, center bottom, from(#00A0E6), to(#FFF));
 }
 
 .blue {
-	background: -webkit-gradient(linear, 13.4% 25%, center bottom, from(rgb(50, 80, 160)), to(#FFF));
+	background: -webkit-gradient(linear, 13.4% 25%, center bottom, from(#3250A0), to(#FFF));
 }
 
 .purple {
