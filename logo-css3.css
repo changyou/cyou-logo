@@ -101,6 +101,19 @@ header {
 	-webkit-transform: rotate(60deg);
 }
 
+.leaf-last {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+	transform-origin: bottom center;
+	-webkit-transform-origin: bottom center;
+	transform: rotate(-60deg);
+	-webkit-transform: rotate(-60deg);
+}
+
 .red {
 	background-color: rgb(230, 0, 60);
 }
