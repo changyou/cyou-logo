@@ -49,32 +49,42 @@ header {
 
 .orange {
 	position: absolute;
-	top: 49px;
-	left: 13px;
+	top: 0px;
+	left: 100px;
+	-webkit-transform-origin: bottom center;
+	-webkit-transform: rotate(-60deg);
 }
 
 .yellow {
 	position: absolute;
-	top: 152px;
-	left: 13px;
+	top: 0px;
+	left: 100px;
+	-webkit-transform-origin: bottom center;
+	-webkit-transform: rotate(-120deg);
 }
 
 .green {
 	position: absolute;
-	top: 200px;
+	top: 0px;
 	left: 100px;
+	-webkit-transform-origin: bottom center;
+	-webkit-transform: rotate(180deg);
 }
 
 .indigo {
 	position: absolute;
-	top: 153px;
-	left: 185px;
+	top: 0px;
+	left: 100px;
+	-webkit-transform-origin: bottom center;
+	-webkit-transform: rotate(120deg);
 }
 
 .blue {
 	position: absolute;
-	top: 53px;
-	left: 188px;
+	top: 0px;
+	left: 100px;
+	-webkit-transform-origin: bottom center;
+	-webkit-transform: rotate(60deg);
 }
 
 .central {
