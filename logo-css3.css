@@ -34,7 +34,7 @@ header {
 	display: block;
 }
 
-.origin-circle {
+.circle {
 	position: absolute;
 	top: 0px;
 	left: 100px;
