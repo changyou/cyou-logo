@@ -34,6 +34,18 @@ header {
 	display: block;
 }
 
+.logo {
+	transform-style: preserve-3d;
+	-webkit-transform-style: preserve-3d;
+	transition: all 2.0s linear;
+	-webkit-transition: all 2.0s linear;
+}
+
+#cyou:hover .logo {
+	transform: rotateY(360deg);
+	-webkit-transform: rotateY(360deg);
+}
+
 .circle {
 	position: absolute;
 	top: 0px;
