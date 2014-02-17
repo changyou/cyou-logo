@@ -127,35 +127,49 @@ header {
 }
 
 .red {
-	background: linear-gradient(210deg, #E6003C, #FFF);
+	background: radial-gradient(bottom center, circle, #FFF, #E94A41 44%, #E6003C 45%, #BF0008);
+	background: -webkit-radial-gradient(bottom center, circle, #FFF, #E94A41 44%, #E6003C 45%, #BF0008);
+	background: -moz-radial-gradient(bottom center, circle, #FFF, #E94A41 44%, #E6003C 45%, #BF0008);
 }
 
 .orange {
-	background: linear-gradient(150deg, #F06400, #FFF);
+	background: radial-gradient(bottom center, circle, #FFF, #EB6400 44%, #F08200 45%, #E8350C);
+	background: -webkit-radial-gradient(bottom center, circle, #FFF, #EB6400 44%, #F08200 45%, #E8350C);
+	background: -moz-radial-gradient(bottom center, circle, #FFF, #EB6400 44%, #F08200 45%, #E8350C);
 }
 
 .yellow {
-	background: linear-gradient(150deg, #FFC800, #FFF);
+	background: radial-gradient(bottom center, circle, #FFF, #FBC703 44%, #FFE100 45%, #EF8300);
+	background: -webkit-radial-gradient(bottom center, circle, #FFF, #FBC703 44%, #FFE100 45%, #EF8300);
+	background: -moz-radial-gradient(bottom center, circle, #FFF, #FBC703 44%, #FFE100 45%, #EF8300);
 }
 
 .green {
-	background: linear-gradient(150deg, #8CC83C, #FFF);
+	background: radial-gradient(bottom center, circle, #FFF, #21AB3C 44%, #8DC21F 45%, #02A23E);
+	background: -webkit-radial-gradient(bottom center, circle, #FFF, #21AB3C 44%, #8DC21F 45%, #02A23E);
+	background: -moz-radial-gradient(bottom center, circle, #FFF, #21AB3C 44%, #8DC21F 45%, #02A23E);
 }
 
 .indigo {
-	background: linear-gradient(150deg, #00A0E6, #FFF);
+	background: radial-gradient(bottom center, circle, #FFF, #03A0E8 44%, #0085D0 45%, #0055A7);
+	background: -webkit-radial-gradient(bottom center, circle, #FFF, #03A0E8 44%, #0085D0 45%, #0055A7);
+	background: -moz-radial-gradient(bottom center, circle, #FFF, #03A0E8 44%, #0085D0 45%, #0055A7);
 }
 
 .blue {
-	background: linear-gradient(150deg, #3250A0, #FFF);
+	background: radial-gradient(bottom center, circle, #FFF, #3853A2 44%, #374198 45%, #2C1F86);
+	background: -webkit-radial-gradient(bottom center, circle, #FFF, #3853A2 44%, #374198 45%, #2C1F86);
+	background: -moz-radial-gradient(bottom center, circle, #FFF, #3853A2 44%, #374198 45%, #2C1F86);
 }
 
 .purple {
-	background: linear-gradient(180deg, #660099, #FFF);
+	background: radial-gradient(bottom center, circle, #FFF, #660099);
+	background: -webkit-radial-gradient(bottom center, circle, #FFF, #660099);
+	background: -moz-radial-gradient(bottom center, circle, #FFF, #660099);
 }
 
 .white {
-	background-color: rgba(255, 255, 255, 0.6);
+	background-color: rgba(255, 255, 255, 0.4);
 }
 
 .small-leaf {
