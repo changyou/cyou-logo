@@ -157,11 +157,11 @@ header {
   width: 200px;
   height: 200px;
   border-radius: 200px;
-  background-color: white;
   transform-origin: bottom center;
   -webkit-transform-origin: bottom center;
   transform: rotate(120deg);
   -webkit-transform: rotate(120deg);
+  background-color: white;
 }
 .copyright {
   margin: 50px 0 0 0;

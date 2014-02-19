@@ -102,7 +102,7 @@ header {
 	left: 100px;
 }
 
-.leaf {
+.leaf-rotate(@r) {
 	position: absolute;
 	top: 0px;
 	left: 0px;
@@ -111,21 +111,16 @@ header {
 	border-radius: 200px;
 	transform-origin: bottom center;
 	-webkit-transform-origin: bottom center;
-	transform: rotate(60deg);
-	-webkit-transform: rotate(60deg);
+	transform: rotate(@r);
+	-webkit-transform: rotate(@r);
+}
+
+.leaf {
+	.leaf-rotate(60deg);
 }
 
 .leaf-last {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	width: 200px;
-	height: 200px;
-	border-radius: 200px;
-	transform-origin: bottom center;
-	-webkit-transform-origin: bottom center;
-	transform: rotate(-60deg);
-	-webkit-transform: rotate(-60deg);
+	.leaf-rotate(-60deg);
 }
 
 .leaf-color(@start, @stop1, @stop2, @end) {
@@ -171,17 +166,8 @@ header {
 }
 
 .small-leaf {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	width: 200px;
-	height: 200px;
-	border-radius: 200px;
+	.leaf-rotate(120deg);
 	background-color: white;
-	transform-origin: bottom center;
-	-webkit-transform-origin: bottom center;
-	transform: rotate(120deg);
-	-webkit-transform: rotate(120deg);
 }
 
 .copyright {
