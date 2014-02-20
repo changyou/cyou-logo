@@ -8,7 +8,7 @@
 		<link rel="stylesheet" type="text/css" href="stylesheet.css" />
 		<title>CSS3 Changyou Logo</title>
 	</head>
-	<body>
+	<body onload="document.getElementById('thisYear').innerHTML=(new Date).getFullYear()">
 		<header>
 			CSS3 Changyou Logo
 			<div class='author'>By <a href="http://bitdewy.github.io/" target="_blank">bitdewy</a></div>
@@ -52,6 +52,6 @@
 				</div>
 			</div>
 		</a>
-		<div class="copyright">Copyright &copy; <script>document.write(new Date().getFullYear());</script> <a href="http://bitdewy.github.io/" target="_blank">bitdewy</a>. All Rights Reserved.</div>
+		<div class="copyright">Copyright &copy; <span id="thisYear">Loading...</span> <a href="http://bitdewy.github.io/" target="_blank">bitdewy</a>. All Rights Reserved.</div>
 	</body>
 </html>
