@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="author" content="bitdewy@gmail.com" />
+		<meta name="keywords" content="cyou" />
+		<meta name="description" content="logo" />
+		<link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+		<title>CSS3 Changyou Logo</title>
+	</head>
+	<body onload="document.getElementById('thisYear').innerHTML=(new Date).getFullYear()">
+		<div id="impress">
+			<header>
+				<div class="step" data-rotate-x="90" data-rotate-y="90">CSS3 Changyou Logo</div>
+				<div class="author step" data-y="-100" data-rotate-x="60" data-rotate-y="150">
+					By <a href="http://bitdewy.github.io/" target="_blank">bitdewy</a>
+				</div>
+			</header>
+			<div id="cyou" class="step" data-x="300" data-y="-250">
+				<div class="logo">
+					<div class="circle top purple"></div>
+					<div class="circle top-left purple">
+						<div class="leaf orange"></div>
+					</div>
+					<div class="circle bottom-left purple">
+						<div class="leaf yellow"></div>
+					</div>
+					<div class="circle bottom purple">
+						<div class="leaf green"></div>
+					</div>
+					<div class="circle bottom-right purple">
+						<div class="leaf indigo"></div>
+					</div>
+					<div class="circle top-right purple">
+						<div class="leaf blue"></div>
+						<div class="leaf-last red"></div>
+					</div>
+					<div class="circle top">
+						<div class="bottom-right small-leaf"></div>
+					</div>
+					<div class="circle top-left">
+						<div class="top-right small-leaf"></div>
+					</div>
+					<div class="circle bottom-left">
+						<div class="bottom-right small-leaf"></div>
+					</div>
+					<div class="circle bottom">
+						<div class="top-right small-leaf"></div>
+					</div>
+					<div class="circle bottom-right">
+						<div class="top small-leaf"></div>
+					</div>
+					<div class="circle top-right">
+						<div class="top-left small-leaf"></div>
+					</div>
+				</div>
+			</div>
+			<div class="copyright step" data-y="-450" data-rotate-x="-60" data-rotate-y="60">
+				Copyright &copy; <span id="thisYear">Loading...</span> <a href="http://bitdewy.github.io/" target="_blank">bitdewy</a>. All Rights Reserved.
+			</div>
+		</div>
+		<script src="js/lib/impress.js"></script>
+		<script>impress().init();</script>
+	</body>
+</html>

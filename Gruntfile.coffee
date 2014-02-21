@@ -35,7 +35,7 @@ module.exports = (grunt) ->
 			build:
 				files: [
 					expand: true
-					cwd: "<%= config.path.source %>/css"
+					cwd: "<%= config.path.source %>/less"
 					src: ["*.less"]
 					dest: "<%= config.path.build %>/css"
 					ext: ".css"
@@ -47,8 +47,5 @@ module.exports = (grunt) ->
 
 	grunt.registerTask "default", [
 		"clean:build", "less:build", "copy"
-	]
-	grunt.registerTask "cleanup", [
-		"clean:build"
 	]
 	return
