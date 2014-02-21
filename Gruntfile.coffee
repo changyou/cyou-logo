@@ -35,9 +35,9 @@ module.exports = (grunt) ->
 			build:
 				files: [
 					expand: true
-					cwd: "<%= config.path.source %>/styles"
+					cwd: "<%= config.path.source %>/css"
 					src: ["*.less"]
-					dest: "<%= config.path.build %>/styles"
+					dest: "<%= config.path.build %>/css"
 					ext: ".css"
 				]
 
