@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = (grunt) ->
 	grunt.initConfig
 		pkg: grunt.file.readJSON("package.json")
@@ -12,6 +14,13 @@ module.exports = (grunt) ->
 					expand: true
 					cwd: "<%= config.path.source %>"
 					src: ["*.html"]
+					dest: "<%= config.path.build %>"
+				]
+			js:
+				files: [
+					expand: true
+					cwd: "<%= config.path.source %>"
+					src: ["**/*.js"]
 					dest: "<%= config.path.build %>"
 				]
 		clean:
@@ -37,7 +46,7 @@ module.exports = (grunt) ->
 	grunt.loadNpmTasks "grunt-contrib-less"
 
 	grunt.registerTask "default", [
-		"clean:build", "less:build", "copy:html"
+		"clean:build", "less:build", "copy"
 	]
 	grunt.registerTask "cleanup", [
 		"clean:build"
